@@ -1,38 +1,44 @@
 # ☀️ Solar ROI Estimator
 
-**Solar ROI Estimator** je interaktivní webová aplikace pro výpočet návratnosti investice do domácí fotovoltaické elektrárny v Česku.  
-Uživatel zadá své roční údaje o spotřebě, lokalitu a další volby – a aplikace spočítá, jak rychle se investice vrátí.
+**Solar ROI Estimator** is an interactive web application for calculating the return on investment (ROI) of residential photovoltaic (PV) systems in the Czech Republic.
+
+Users can enter their annual energy consumption, location, and system parameters — the app then estimates how quickly the investment will pay off, using real solar irradiance data from the PVGIS database.
 
 ---
 
-## 🔧 Použité technologie
+## 🔧 Tech Stack
 
-- [Next.js](https://nextjs.org/) – React framework pro webovou aplikaci
-- [TypeScript](https://www.typescriptlang.org/) – typová kontrola
-- [TailwindCSS](https://tailwindcss.com/) – utilitní CSS framework
-- [Recharts](https://recharts.org/en-US/) – grafy návratnosti
-- [Leaflet](https://leafletjs.com/) – interaktivní mapa pro výběr lokality
-- [PVGIS API](https://re.jrc.ec.europa.eu/pvg_tools/en/) – veřejná data o solární irradianci
-
----
-
-## ✨ Funkce
-
-- Výpočet podle: ⚡️ **spotřeba**, 🌍 **lokalita**, 💰 **tarif**, 🔋 **baterie**, 🚗 **elektromobil**
-- Automatické načítání dat o slunečním záření z **PVGIS** dle souřadnic
-- Interaktivní graf **návratnosti investice po letech**
-- Podpora různých modelů EV s možností ručního zadání spotřeby
-- Možnost výběru polohy z mapy (Leaflet)
+- **Next.js** – React-based web framework  
+- **TypeScript** – static type safety  
+- **TailwindCSS** – utility-first CSS framework  
+- **Recharts** – for interactive ROI charts  
+- **Leaflet** – for interactive map input  
+- **PVGIS API** – public solar irradiance data by EU
 
 ---
 
-## 🖥️ Ukázka
+## ✨ Features
 
-`coming soon`
+- ROI calculation based on:
+  - ⚡️ Annual energy consumption
+  - 🌍 Geographic location
+  - 💰 Electricity tariff
+  - 🔋 Battery system (optional)
+  - 🚗 Electric vehicle integration
+- Real-time solar data fetch from **PVGIS** based on user-selected coordinates
+- Interactive ROI charts showing savings over time
+- EV support: choose common models or enter custom consumption
+- Select location directly from an interactive map (**Leaflet**)
 
 ---
 
-## 📦 Lokální spuštění
+## 🖥️ Demo
+
+Coming soon...
+
+---
+
+## 📦 Local Setup
 
 ```bash
 git clone https://github.com/sar-ilia/solar-roi-estimator.git
